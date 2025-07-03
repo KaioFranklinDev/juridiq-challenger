@@ -1,0 +1,133 @@
+# Node modules e dependências
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# Builds e outputs
+build/
+dist/
+.next/
+out/
+coverage/
+*.lcov
+
+# Ambiente e variáveis
+.env
+.env.*
+!.env.example
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Cache e arquivos temporários
+.cache/
+.parcel-cache/
+.nyc_output/
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Outros
+jspm_packages/
+.npm/
+.eslintcache/
+.node_repl_history/
+*.tgz
+.yarn-integrity/
+
+# Next.js
+.next/
+.vercel/
+.turbo/
+
+# Outros frameworks
+.nuxt/
+.vuepress/dist/
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
+
+# Testes e coverage
+coverage/
+.vscode-test/
+
+# Arquivos de lock e runtime
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+
+# Exemplo de env
+!.env.example
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Runtime data
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# next.js build output
+.next
+
+# nuxt.js build output
+.nuxt
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test 
