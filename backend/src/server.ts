@@ -25,7 +25,7 @@ fastify.get('/health', async (request, reply) => {
 
 const start = async () => {
   try {
-    const port = process.env.PORT ? parseInt(process.env.PORT) : 3002;
+    const port = process.env.PORT_BACKEND ? parseInt(process.env.PORT_BACKEND) : 3002;
     await fastify.listen({ port, host: '0.0.0.0' });
     console.log(`🚀 Servidor rodando na porta ${port}`);
   } catch (err) {
