@@ -1,6 +1,6 @@
 import { Book, CreateBookRequest, BookFilters } from '@/types/book';
 
-const API_BASE_URL = 'http://localhost:3002/api';
+const API_BASE_URL = 'https://juridiq-challenger.onrender.com:3002/api';
 
 export class ApiService {
   private async request<T>(endpoint: string, options?: RequestInit): Promise<T> {

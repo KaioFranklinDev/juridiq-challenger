@@ -5,15 +5,16 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
+
+
 const fastify = Fastify({
   logger: true,
 });
 
-// Registrar CORS
 fastify.register(cors, {
-  origin: true,
-  credentials: true,
+  origin: '*', // Permite qualquer origem
 });
+
 
 // Registrar rotas
 fastify.register(bookRoutes, { prefix: '/api' });
